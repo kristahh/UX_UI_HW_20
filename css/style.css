@@ -1,0 +1,107 @@
+* {
+font-family:'Josefin Sans', sans-serif;
+}
+
+
+.background {
+    background-color: #ACECEB;
+    height: 2000px;
+}
+
+.background2 {
+    background-color:white;
+    height:96%;
+    width:96%;
+    border-radius: 3vw;
+    margin: 2%;
+ transform: translateY(3vw);
+ display:flex;
+ flex-direction: row;
+ background-image: url(../images/triangle.png);
+ background-repeat: no-repeat;
+ background-size: 27rem;
+
+}
+
+#x {
+    z-index: 100;
+   position: sticky;
+   top: 30px;
+    height:8rem;
+}
+
+#slider {
+   z-index: 100;
+    margin-left: -5rem;
+    margin-top: 10vw;
+    position: sticky;
+    height:36rem;
+    top: 200px;
+}
+.slideList{
+    z-index: 100;
+  color:white;
+  font-size: 1rem;
+  font-weight: 100;
+ text-shadow: -0.5px 0.5px  black,
+  1px -1px  black;
+    margin-top: 10vw;
+    position: sticky;
+    height:36rem;
+    line-height: 4.5rem;
+    top: 200px;
+}
+
+.overview {
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+
+}
+#phone1 {
+    width:30rem;
+    height:50rem;
+
+}
+
+.titleBlock{
+    padding-left: 3rem;
+
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+  
+   }
+
+
+#title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+p{
+    font-weight: 100;
+    max-width: 500px;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+}
+#icons{
+    max-width: 50vw;
+    padding-top:1.5rem ;
+    padding-bottom: 3rem;
+}
+.textBlock{
+     padding-right: 4rem;
+}
+.textBlock2{
+     max-width: 500px;
+}
+
+.resp{
+    font-weight: 100;
+    line-height: 2rem;
+    padding-top:1.5rem ;
+    padding-bottom:1.5rem ;
+}
