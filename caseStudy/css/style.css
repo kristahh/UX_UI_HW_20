@@ -182,13 +182,26 @@ ul{
     justify-content: space-around;
 }
 .user{
-    padding-bottom: 20px;
+    padding: 20px;
     max-width: 18rem;
 text-align: center;
 font-size: 1.2rem;
+}
+h4{
+    color:#FB65FB;
 }
 .name{
     text-align: center;
 font-size: 1.2rem;
 font-weight: 400;
+}
+.user:hover{
+
+    background-color:#eeff41;
+    background-size: 1vw 1vw;
+    border-radius: 100vw;
+   
+}
+.comic{
+    height:5rem;
 }
