@@ -5,13 +5,12 @@ font-family:'Josefin Sans', sans-serif;
 
 .background {
     background-color: #ACECEB;
-    height: min-content;
+ 
 }
 
 .background2 {
     background-color:white;
-    height:min-content;
-    width:96%;
+   width:96%;
     border-radius: 3vw;
     margin: 2%;
  transform: translateY(3vw);
@@ -27,7 +26,7 @@ font-family:'Josefin Sans', sans-serif;
 #x {
     z-index: 100;
    position: sticky;
-   top: 30px;
+   top: 1vw;
     height:8rem;
 }
 
@@ -37,7 +36,7 @@ font-family:'Josefin Sans', sans-serif;
     margin-top: 10vw;
     position: sticky;
     height:36rem;
-    top: 200px;
+    top: 10vw;
 }
 .slideList{
     z-index: 100;
@@ -50,10 +49,9 @@ font-family:'Josefin Sans', sans-serif;
     position: sticky;
     height:36rem;
     line-height: 4.5rem;
-    top: 200px;
+    top: 10vw;
 }
 .all{
-    margin-left: 3%;
     display:flex;
     flex-direction: column;
 }
@@ -62,6 +60,7 @@ font-family:'Josefin Sans', sans-serif;
     display:flex;
     flex-wrap: wrap;
     margin-top: 5rem;
+    
 
 }
 #phone1 {
@@ -110,8 +109,86 @@ p{
     padding-top:1.5rem ;
     padding-bottom:1.5rem ;
 }
-.process{
+.bigBox{
+    margin-top: 5em;
+    margin-bottom:5rem;
+    padding-left: 5em;
     width:100%;
     height:400px;
-    background-color:antiquewhite;
+   
+}
+.processBox{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;   
+}
+.smallBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+ul{
+    font-weight: 100;
+}
+.empBox{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;   
+
+}
+
+.smallBox2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center; 
+   width: 22rem;
+}
+
+.empBox{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;   
+
+}
+.textBox{
+    padding-top: 5vw;
+    max-width: 40vw;
+    text-align: center;
+    line-height: 2.5rem;
+   
+}
+
+.defBox{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;   
+}
+
+.insideBox{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+.user{
+    padding-bottom: 20px;
+    max-width: 18rem;
+text-align: center;
+font-size: 1.2rem;
+}
+.name{
+    text-align: center;
+font-size: 1.2rem;
+font-weight: 400;
 }
