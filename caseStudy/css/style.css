@@ -6,11 +6,12 @@ font-family:'Josefin Sans', sans-serif;
 .background {
     background-color: #ACECEB;
  height:fit-content;
+ width:100%;
 }
 
 .background2 {
     background-color:white;
-   width:96%;
+
     border-radius: 3vw;
     margin: 2%;
  transform: translateY(3vw);
@@ -43,7 +44,7 @@ font-family:'Josefin Sans', sans-serif;
     margin-top: 10vw;
     position: sticky;
     height:36rem;
-    top: 10vw;
+    top: 15em;
 }
 .slideList{
     z-index: 100;
@@ -56,12 +57,13 @@ font-family:'Josefin Sans', sans-serif;
     position: sticky;
     height:36rem;
     line-height: 4.5rem;
-    top: 10vw;
+    top: 15em;
 }
 .all{
     display:flex;
     flex-direction: column;
-  
+  width:96%;
+
 }
 .overview {
     flex-direction: row;
@@ -71,8 +73,8 @@ font-family:'Josefin Sans', sans-serif;
 }
 
 #phone1 {
-    width:30rem;
-    height:50rem;
+    width:25vw;
+    height:42vw;
 
 }
 
@@ -80,6 +82,7 @@ font-family:'Josefin Sans', sans-serif;
     padding-left: 3rem;
 
 }
+
 .main {
     display: flex;
     flex-wrap: wrap;
@@ -88,9 +91,11 @@ font-family:'Josefin Sans', sans-serif;
 
 
 #title {
-    font-size: 3rem;
+    font-size: 4vw;
     padding-bottom: 3rem;
     padding-top: 2rem;
+    text-shadow: -0.5px 0.5px  rgb(255, 255, 255),
+    1px -1px  rgb(255, 255, 255);
 }
 p{
     font-weight: 100;
@@ -118,16 +123,19 @@ p{
 }
 .bigBox{
     margin-top:2vw;
-    margin-right: 5em;
-    padding-left: 5em;
+    margin-right: 10em;
+    padding-left: 3em;
+  flex-wrap: wrap;
    
 }
 .processBox{
     padding-top: 4rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;   
+
  
 }
 .smallBox{
@@ -144,10 +152,14 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;  
+    flex-wrap: wrap; 
     
 }
-
+.dog{
+  
+   margin-left: 15%;
+}
 .smallBox2{
     display: flex;
     flex-direction: column;
@@ -166,7 +178,7 @@ ul{
 
 .defBox{
     padding-bottom: 2rem;
-   
+    flex-wrap: wrap; 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -177,8 +189,10 @@ ul{
 .insideBox{
     display: flex;
     flex-direction: row;
-    padding-bottom: 100px;
+    padding-bottom: 2vw;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .user{
     padding: 20px;
@@ -203,9 +217,21 @@ font-weight: 400;
     border-radius: 100vw;
    
 }
+
+.comicBox {
+    display: flex;
+    overflow-x: auto;
+    border: solid rgb(255, 0, 212) 1px;
+    border-radius:2em;
+     width: 80%;
+    
+  }
 .comic{
-    height:9vw;
+    width:auto;
+
 }
+
+
 .pawBox{
     display: flex;
     flex-wrap: wrap;
@@ -242,7 +268,6 @@ font-weight: 400;
 
 
 .styleBox{
-   
   height:600px;
   align-items:center;
     display: flex;
@@ -273,6 +298,15 @@ margin:2em;
     padding-top: 4rem;
     padding:0.5rem;
 }
+.styleBox2{
+    height:600px;
+    align-items:center;
+      display: flex;
+     flex-direction: row;
+     margin-right: 5em;
+     margin-bottom: 15em;
+     margin-top:5em;
+  }
 
 .scrollBox2{
     display: flex;
@@ -286,12 +320,15 @@ margin:2em;
    
   }
 
+
   .hp {
     flex: 0 0 auto;
   width: auto;
   height: 90%;
   max-width: 100%;
 margin:2em;
+max-height: 100%;
+
 }
 .final{
     padding-right:5vw;
@@ -303,15 +340,16 @@ margin:2em;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-.test{
-    padding-top:5rem;
+.tests{
+    width: 30vw;
 }
+
 
  .myTabs{
      display: flex;
-     flex-wrap: wrap;
-     max-width: 650px;
-     padding-left:50px;
+     flex-wrap:wrap;
+    width: 40vw;
+     padding-left:1em;
  }
 
  .myTabs input[type="radio"]{
@@ -319,7 +357,7 @@ margin:2em;
  }
 
  .myTabs label{
-     padding:25px;
+     padding:2vw;
      background:#ACECEB;
      margin:0.2em;
      border-top-left-radius: 2em;
@@ -327,7 +365,7 @@ margin:2em;
  }
  .myTabs .tab{
      width:100%;
-     padding:50px;
+     padding:5vw;
      background-color: #eeff41;
      order: 1;
      display:none;
@@ -335,7 +373,7 @@ margin:2em;
 
  .myTabs .tab p{
      font-size: 1em;
-     width: 25em;
+     width: 30vw;
  }
 
  .myTabs input[type='radio']:checked + label + .tab{
@@ -355,6 +393,7 @@ margin:2em;
     justify-content: space-evenly;
   padding-bottom: 50px;
   margin-top: 2vw;
+  flex-wrap: wrap; 
 }
 
 .steps{
@@ -388,4 +427,62 @@ margin:2em;
 }
  .last {
     margin-top:-5%;
+}
+@media screen and (max-width:800px){
+    #slider  {
+height:60vw;
+margin-left: -7rem;
+}
+
+ .slideList{
+    top:17em;
+        font-size: 14px;
+        line-height: 8vw;
+        margin-left: -1rem;
+    }
+    #phone1{
+        width:37vw;
+    height:60vw;
+    }
+  
+   
+    .styleBox{
+        height:600px;
+        align-items:center;
+        display: flex;
+         flex-direction: row;
+         margin-right: 1em;
+         margin-bottom: 1em;
+         margin-top:1em;
+      }
+      .scrollBox {
+          display: flex;
+          flex-wrap: no-wrap;
+          overflow-x: auto;
+          margin-top: 1rem;
+          border: solid rgb(255, 0, 212) 1px;
+          border-radius:2em;
+        }
+.style{
+          flex: 0 0 auto;
+        max-width: 100%;
+      padding-right: 1em;
+      margin:1em;
+      max-height:100%;
+      
+      }
+
+      .styleBox2{
+    
+         margin-right: 0;
+         margin-bottom: 11em;
+         margin-top:6em;
+      }
+      .arrow{
+          padding-top: 4rem;
+          padding:0.5rem;
+      }
+      #title {
+        font-size: 6vw;
+      }
 }
