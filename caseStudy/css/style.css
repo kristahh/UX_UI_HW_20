@@ -117,7 +117,7 @@ p{
     padding-bottom:1.5rem ;
 }
 .bigBox{
-    margin-top: 3em;
+    margin-top:2vw;
     margin-right: 5em;
     padding-left: 5em;
    
@@ -213,11 +213,11 @@ font-weight: 400;
     padding-bottom: 100px;
     padding-top: 100px;
     justify-content: space-around;
+    height:min-content;
 
 }
 .smallBox3{
     display: flex;
-
     flex-direction: column;
     justify-items: center; 
    width: 14rem;
@@ -240,12 +240,13 @@ font-weight: 400;
 }
 .styleBox{
    
-  height:700px;
+  height:600px;
   align-items:center;
     display: flex;
    flex-direction: row;
    margin-right: 5em;
-   margin-bottom: 5em;
+   margin-bottom: 15em;
+   margin-top:5em;
 }
 .scrollBox {
     display: flex;
@@ -254,7 +255,6 @@ font-weight: 400;
     margin-top: 4rem;
     border: solid rgb(255, 0, 212) 1px;
     border-radius:2em;
-   
   }
   
 .style{
@@ -262,12 +262,126 @@ font-weight: 400;
   width: auto;
   height: 90%;
   max-width: 100%;
-padding-right: 5rem;
+padding-right: 5em;
 margin:2em;
 
 }
 .arrow{
     padding-top: 4rem;
-   
 }
 
+.scrollBox2{
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin-top: 2em;
+    border: solid rgb(255, 0, 212) 1px;
+    border-radius:2em;
+    height:700px;
+   padding-left: 2em;
+   
+  }
+
+  .hp {
+    flex: 0 0 auto;
+  width: auto;
+  height: 90%;
+  max-width: 100%;
+margin:2em;
+}
+.final{
+    padding-right:5vw;
+}
+
+.testBox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.test{
+    padding-top:5rem;
+}
+
+ .myTabs{
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 650px;
+     padding-left:50px;
+ }
+
+ .myTabs input[type="radio"]{
+     display:none;
+ }
+
+ .myTabs label{
+     padding:25px;
+     background:#ACECEB;
+     margin:0.2em;
+     border-top-left-radius: 2em;
+     border-top-right-radius: 2em;
+ }
+ .myTabs .tab{
+     width:100%;
+     padding:50px;
+     background-color: #eeff41;
+     order: 1;
+     display:none;
+ }
+
+ .myTabs .tab p{
+     font-size: 1em;
+     width: 25em;
+ }
+
+ .myTabs input[type='radio']:checked + label + .tab{
+     display:block;
+ }
+ .myTabs input[type='radio']:checked + label {
+     background: #eeff41;
+ }
+.tab {
+     display:flex;
+     flex-direction: row;
+    justify-content: center;
+ }
+.stepsBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  padding-bottom: 50px;
+  margin-top: 2vw;
+}
+
+.steps{
+    padding:5rem;
+    text-align: center;
+    width:25rem;
+    background-image:url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position: center;
+   font-weight: 100;
+}
+.desk{
+    width:70vw;
+}
+.phone{
+    width:23vw;
+    margin-left:70%;
+    margin-top:-40%;
+}
+.endBox{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+.end{
+    width: 50rem;
+    padding-right: 5rem;
+    margin-left: 0;
+}
+ .final {
+    margin-top:-5%;
+}
