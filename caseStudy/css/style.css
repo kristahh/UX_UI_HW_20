@@ -412,8 +412,14 @@ max-height: 100%;
 }
 .phone{
     width:23vw;
-    margin-left:90%;
+    margin-left:60%;
     margin-top:-50%;
+}
+
+.deskPhone{
+    margin-left:5%;
+    margin-right:0;
+
 }
 .endBox{
   display:flex;
@@ -487,6 +493,9 @@ margin-left: -7rem;
       #title {
         font-size: 6vw;
       }
+      .deskPhone{
+        margin-left:0;
+      }
 }
 @media screen and (max-width:650px){
     .all{
@@ -502,9 +511,7 @@ margin-left: -7rem;
     justify-content: center;
    text-align: center;
 }
-.
-
-    .styleBox{
+.styleBox{
         height:400px;
         align-items:center;
         display: flex;
